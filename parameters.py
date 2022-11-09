@@ -20,7 +20,8 @@ from keras.optimizers import SGD
 from keras.preprocessing.image import ImageDataGenerator
 from pandas.io.parsers import read_csv
 from scipy import misc
-from tensorflow.contrib.opt import ScipyOptimizerInterface
+#from tensorflow.contrib.opt import ScipyOptimizerInterface
+#werkt niet meer
 
 # Set constants (MNIST)
 # NUM_LABELS = 10                             # Number of labels
